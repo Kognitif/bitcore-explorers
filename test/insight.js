@@ -3,7 +3,7 @@
 var sinon = require('sinon');
 var should = require('chai').should();
 var expect = require('chai').expect;
-var bitcore = require('zcash-bitcore-lib');
+var bitcore = require('bitcore-lib-zcash');
 var explorers = require('../');
 
 var Insight = explorers.Insight;
